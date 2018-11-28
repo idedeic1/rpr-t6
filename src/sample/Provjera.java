@@ -78,4 +78,7 @@ public class Provjera {
         return false;
     }
 
+    public boolean provjeriAdresu(String n){
+        return true;
+    }
 }

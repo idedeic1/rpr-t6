@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="layout">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/controlsfx_9_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/controlsfx_samples_9_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/fxsampler_1_0_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ant.xml" beforeDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpr t6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr t6.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/dizajn.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/dizajn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Provjera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Provjera.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -74,27 +68,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="java" value="2" />
+          <entry key="java" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="17" />
-          <entry key="java" value="329" />
-          <entry key="txt" value="10" />
+          <entry key="fxml" value="6" />
+          <entry key="java" value="863" />
+          <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="17" />
-          <entry key="JAVA" value="329" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="JAVA" value="863" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -107,7 +103,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="170">
               <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -116,13 +112,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="21" column="149" selection-start-line="21" selection-start-column="149" selection-end-line="21" selection-end-column="149" />
+            <state relative-caret-position="105">
+              <caret line="278" lean-forward="true" selection-start-line="278" selection-end-line="278" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1125#3743#0" />
+                <element signature="e#3884#4127#0" />
+                <element signature="e#3693#4467#0" />
+                <element signature="e#4473#5270#0" />
+                <element signature="e#5276#6047#0" />
+                <element signature="e#6053#6826#0" />
+                <element signature="e#6832#7605#0" />
+                <element signature="e#7611#8381#0" />
+                <element signature="e#8387#9158#0" />
+                <element signature="e#9164#9951#0" />
+                <element signature="e#9957#10714#0" />
+                <element signature="e#10878#11663#0" />
+                <element signature="e#11732#12495#0" />
+                <element signature="e#11334#11611#0" />
+                <element signature="e#11737#12025#0" />
+                <element signature="e#12156#12437#0" />
+                <element signature="e#12567#12844#0" />
+                <element signature="e#12972#13250#0" />
+                <element signature="e#13377#13660#0" />
+                <element signature="e#13788#14069#0" />
+                <element signature="e#14199#14480#0" />
+                <element signature="e#14610#14891#0" />
               </folding>
             </state>
           </provider>
@@ -131,8 +149,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Provjera.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="274">
+              <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
               <folding>
                 <element signature="method#provjeriOdsjek#0;class#Provjera#0" />
                 <element signature="method#provjeriGodine#0;class#Provjera#0" />
@@ -140,7 +158,7 @@
                 <element signature="method#provjeriMail#0;class#Provjera#0" />
                 <element signature="method#provjeriImePrezime#0;class#Provjera#0" />
                 <element signature="method#provjeriIndeks#0;class#Provjera#0" />
-                <element signature="method#provjerielefon#0;class#Provjera#0" />
+                <element signature="method#provjeriTelefon#0;class#Provjera#0" />
                 <element signature="method#provjeriJMBG#0;class#Provjera#0" />
                 <element signature="method#provjeriDatumRodjenja#0;class#Provjera#0" />
               </folding>
@@ -148,14 +166,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="85" column="69" selection-start-line="85" selection-start-column="69" selection-end-line="85" selection-end-column="69" />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
@@ -178,11 +196,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/Provjera.java" />
         <option value="$PROJECT_DIR$/src/sample/dizajn.css" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
-        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Provjera.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
       </list>
     </option>
   </component>
@@ -244,7 +262,7 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543410334594" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543413088225" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ControlFX/fxsampler-1.0.10.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -346,7 +364,7 @@
       <option name="presentableId" value="Default" />
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
-      <workItem from="1543406053338" duration="4265000" />
+      <workItem from="1543406053338" duration="6998000" />
     </task>
     <task id="LOCAL-00001" summary="prvi">
       <created>1543407211476</created>
@@ -362,11 +380,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543408897103</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2">
+      <created>1543410373582</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543410373582</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5567000" />
+    <option name="totallyTimeSpent" value="8300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1386" height="788" extended-state="0" />
@@ -384,7 +409,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32874617" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32874617" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -419,7 +444,8 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="prvi" />
     <MESSAGE value="layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="layout" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -433,27 +459,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Provjera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="method#provjeriOdsjek#0;class#Provjera#0" />
-            <element signature="method#provjeriGodine#0;class#Provjera#0" />
-            <element signature="method#provjeriCiklus#0;class#Provjera#0" />
-            <element signature="method#provjeriMail#0;class#Provjera#0" />
-            <element signature="method#provjeriImePrezime#0;class#Provjera#0" />
-            <element signature="method#provjeriIndeks#0;class#Provjera#0" />
-            <element signature="method#provjerielefon#0;class#Provjera#0" />
-            <element signature="method#provjeriJMBG#0;class#Provjera#0" />
-            <element signature="method#provjeriDatumRodjenja#0;class#Provjera#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="170">
           <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -461,23 +469,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/Provjera.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="21" column="149" selection-start-line="21" selection-start-column="149" selection-end-line="21" selection-end-column="149" />
+        <state relative-caret-position="274">
+          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#provjeriOdsjek#0;class#Provjera#0" />
+            <element signature="method#provjeriGodine#0;class#Provjera#0" />
+            <element signature="method#provjeriCiklus#0;class#Provjera#0" />
+            <element signature="method#provjeriMail#0;class#Provjera#0" />
+            <element signature="method#provjeriImePrezime#0;class#Provjera#0" />
+            <element signature="method#provjeriIndeks#0;class#Provjera#0" />
+            <element signature="method#provjeriTelefon#0;class#Provjera#0" />
+            <element signature="method#provjeriJMBG#0;class#Provjera#0" />
+            <element signature="method#provjeriDatumRodjenja#0;class#Provjera#0" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="278" lean-forward="true" selection-start-line="278" selection-end-line="278" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1125#3743#0" />
+            <element signature="e#3884#4127#0" />
+            <element signature="e#3693#4467#0" />
+            <element signature="e#4473#5270#0" />
+            <element signature="e#5276#6047#0" />
+            <element signature="e#6053#6826#0" />
+            <element signature="e#6832#7605#0" />
+            <element signature="e#7611#8381#0" />
+            <element signature="e#8387#9158#0" />
+            <element signature="e#9164#9951#0" />
+            <element signature="e#9957#10714#0" />
+            <element signature="e#10878#11663#0" />
+            <element signature="e#11732#12495#0" />
+            <element signature="e#11334#11611#0" />
+            <element signature="e#11737#12025#0" />
+            <element signature="e#12156#12437#0" />
+            <element signature="e#12567#12844#0" />
+            <element signature="e#12972#13250#0" />
+            <element signature="e#13377#13660#0" />
+            <element signature="e#13788#14069#0" />
+            <element signature="e#14199#14480#0" />
+            <element signature="e#14610#14891#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="85" column="69" selection-start-line="85" selection-start-column="69" selection-end-line="85" selection-end-column="69" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
   </component>
   <component name="masterDetails">

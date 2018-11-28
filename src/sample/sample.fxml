@@ -35,8 +35,8 @@
                   <Label text="Prezime" GridPane.rowIndex="1" />
                   <Label text="Broj indeksa" GridPane.rowIndex="2" />
                   <TextArea fx:id="imeField" onKeyTyped="#unosImena" onMouseClicked="#misIme" onMouseReleased="#oslobodiIme" prefHeight="18.0" prefWidth="296.0" GridPane.columnIndex="1" />
-                  <TextArea fx:id="prezimeField" onKeyTyped="#unosImena" onMouseClicked="#misIme" onMouseReleased="#oslobodiIme" prefHeight="18.0" prefWidth="296.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                  <TextArea fx:id="indeks" onKeyTyped="#unosImena" onMouseClicked="#misIme" onMouseReleased="#oslobodiIme" prefHeight="18.0" prefWidth="296.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextArea fx:id="prezimeField" onKeyTyped="#unosPrezimena" onMouseClicked="#misPrezime" onMouseReleased="#oslobodiPrezime" prefHeight="18.0" prefWidth="296.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <TextArea fx:id="indeks" onKeyTyped="#unosIndeksa" onMouseClicked="#misIndeks" onMouseReleased="#oslobodiIndeks" prefHeight="18.0" prefWidth="296.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                </children>
             </GridPane>
             <Label text="Detaljni licni podaci">
@@ -58,8 +58,8 @@
                   <Label text="JMBG" />
                   <Label text="Datum rodenja" GridPane.rowIndex="1" />
                   <Label text="Mjesto rodenja" GridPane.rowIndex="2" />
-                  <TextArea fx:id="JMBG" onKeyTyped="#unosImena" onMouseClicked="#misIme" onMouseReleased="#oslobodiIme" prefHeight="18.0" prefWidth="296.0" GridPane.columnIndex="1" />
-                  <TextArea fx:id="datum" onKeyTyped="#unosImena" onMouseClicked="#misIme" onMouseReleased="#oslobodiIme" prefHeight="18.0" prefWidth="296.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <TextArea fx:id="JMBG" onKeyTyped="#unosJMBG" onMouseClicked="#misJMBG" onMouseReleased="#oslobodiJMBG" prefHeight="18.0" prefWidth="296.0" GridPane.columnIndex="1" />
+                  <TextArea fx:id="datum" onKeyTyped="#unosRodjenja" onMouseClicked="#misIme" onMouseReleased="#oslobodiIme" prefHeight="18.0" prefWidth="296.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                   <ComboBox fx:id="mjesto" editable="true" onShowing="#prikazi" prefHeight="25.0" prefWidth="299.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                </children>
             </GridPane>
@@ -82,9 +82,9 @@
                   <Label text="Kontakt telefon" />
                   <Label text="Kontakt adresa" GridPane.rowIndex="1" />
                   <Label text="E-mail" GridPane.rowIndex="2" />
-                  <TextArea fx:id="konTel" onKeyTyped="#unosImena" onMouseClicked="#misIme" onMouseReleased="#oslobodiIme" prefHeight="18.0" prefWidth="296.0" GridPane.columnIndex="1" />
-                  <TextArea fx:id="konAdresa" onKeyTyped="#unosImena" onMouseClicked="#misIme" onMouseReleased="#oslobodiIme" prefHeight="18.0" prefWidth="296.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                  <TextArea fx:id="mailAdresa" onKeyTyped="#unosImena" onMouseClicked="#misIme" onMouseReleased="#oslobodiIme" prefHeight="18.0" prefWidth="296.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextArea fx:id="konTel" onKeyTyped="#unosTelefona" onMouseClicked="#misTel" onMouseReleased="#oslobodiTel" prefHeight="18.0" prefWidth="296.0" GridPane.columnIndex="1" />
+                  <TextArea fx:id="konAdresa" onKeyTyped="#unosAdrese" prefHeight="18.0" prefWidth="296.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <TextArea fx:id="mailAdresa" onKeyTyped="#unosMaila" onMouseClicked="#misMail" onMouseReleased="#oslobodiMail" prefHeight="18.0" prefWidth="296.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                </children>
             </GridPane>
             <Label text="Podaci o studiju">
@@ -108,8 +108,8 @@
                   <Label text="Odsjek" />
                   <Label text="Godina studija" GridPane.rowIndex="1" />
                   <Label text="Ciklus studija" GridPane.rowIndex="2" />
-                  <TextArea fx:id="odsjek" onKeyTyped="#unosImena" onMouseClicked="#misIme" onMouseReleased="#oslobodiIme" prefHeight="18.0" prefWidth="296.0" GridPane.columnIndex="1" />
-                  <TextArea fx:id="godina" onKeyTyped="#unosImena" onMouseClicked="#misIme" onMouseReleased="#oslobodiIme" prefHeight="18.0" prefWidth="296.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <TextArea fx:id="odsjek" onKeyTyped="#unosOdsjeka" onMouseClicked="#misOdsjek" onMouseReleased="#oslobodiOdsjek" prefHeight="18.0" prefWidth="296.0" GridPane.columnIndex="1" />
+                  <TextArea fx:id="godina" onKeyTyped="#unosGodine" onMouseClicked="#misGodina" onMouseReleased="#oslobodiGodinu" prefHeight="18.0" prefWidth="296.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                   <Label text="Da li je student redovan ili redovan samofinansirajući?" GridPane.rowIndex="3" />
                   <Label text="Da li student pripada posebnim boračkim kategorijama?" GridPane.rowIndex="4" />
                   <HBox prefHeight="29.0" prefWidth="200.0" spacing="50.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
@@ -120,11 +120,11 @@
                   </HBox>
                   <HBox prefHeight="100.0" prefWidth="200.0" spacing="50.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
                      <children>
-                        <RadioButton fx:id="dugmeDa2" mnemonicParsing="false" onMouseClicked="#clickRadBtnDa1" text="Da" />
-                        <RadioButton fx:id="dugmeNe2" mnemonicParsing="false" onMouseClicked="#clickTadBtnNe1" text="Ne" />
+                        <RadioButton fx:id="dugmeDa2" mnemonicParsing="false" onMouseClicked="#clickRadBtnDa2" text="Da" />
+                        <RadioButton fx:id="dugmeNe2" mnemonicParsing="false" onMouseClicked="#clickTadBtnNe2" text="Ne" />
                      </children>
                   </HBox>
-                  <TextArea fx:id="ciklus" onKeyTyped="#unosImena" onMouseClicked="#misIme" onMouseReleased="#oslobodiIme" prefHeight="19.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextArea fx:id="ciklus" onKeyTyped="#unosCiklusa" onMouseClicked="#misCiklus" onMouseReleased="#oslobodiCiklus" prefHeight="19.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                </children>
             </GridPane>
             <Button fx:id="dugme" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="44.0" prefWidth="154.0" text="POTVRDI" textFill="#000000f5" />
