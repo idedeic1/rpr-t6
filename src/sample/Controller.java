@@ -25,18 +25,26 @@ public class Controller {
     public boolean provjera11, provjera1, provjera2, provjera3, provjera4, provjera5, provjera6, provjera7, provjera8, provjera9, provjera10;
 
     public void onBtnClick(javafx.event.ActionEvent actionEvent) {
-        if( provjera11 && provjera1 && provjera2 && provjera3 && provjera4 && provjera5 && provjera6 && provjera7 && provjera8 && provjera9 && provjera10){
-        System.out.println("Ime: " + imeField.getText() + "\n" + "Prezime: " + prezimeField.getText() + "\n" + "Broj indeksa: " + indeks.getText() + "\n");
-            System.out.println("JMBG: " + JMBG.getText() + "\n" + "Datum rodjenja: " + datum.getText() + "\n" + "Mjesto rodjenja: " + mjesto.getValue() + "\n");
-            System.out.println("Kontakt adresa: " + konAdresa.getText() + "\n" + "KontaktTelefon: " + konTel.getText() + "\n" + "E-mail adresa: " + mailAdresa.getText() + "\n");
-            System.out.println("Odjsek: " + odsjek.getText() + "\n" + "Godina: " + godina.getText() + "\n" + "Ciklus: " + ciklus.getText() + "\n");
+        if( provjera11 && provjera1 && provjera2 && provjera3 && provjera4 &&
+                provjera5 && provjera6 && provjera7 && provjera8 && provjera9 && provjera10){
+            System.out.println("Ime: " + imeField.getText());
+            System.out.println("Prezime: " + prezimeField.getText());
+            System.out.println("Broj indeksa: " + indeks.getText());
+            System.out.println("Datum rodjenja: " + datum.getText());
+            System.out.println("Mjesto rodjenja: " + mjesto.getValue());
+            System.out.println("Kontakt adresa: " + konAdresa.getText());
+            System.out.println("KontaktTelefon: " + konTel.getText());
+            System.out.println("E-mail adresa: " + mailAdresa.getText());
+            System.out.println("Odjsek: " + odsjek.getText());
+            System.out.println("Godina: " + godina.getText());
+            System.out.println("Ciklus: " + ciklus.getText());
             System.out.println("Da li je student redovan ili redovan samofinansirajući? ");
             if(dugmeDa1.isSelected()) System.out.println("Jeste\n");
-            if(dugmeNe1.isSelected()) System.out.println("Nije\n");
+            else System.out.println("Nije\n");
 
             System.out.println("Da li student pripada posebnim boračkim kategorijama? ");
             if(dugmeDa2.isSelected()) System.out.println("Jeste\n");
-            if(dugmeNe2.isSelected()) System.out.println("Nije\n");
+            else System.out.println("Nije\n");
 
             imeField.setText("");
             prezimeField.setText("");
